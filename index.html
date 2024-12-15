@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <script src="mqttws31.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kucno stanje </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1> Kućno stanje </h1>
+        <div id="container">
+            <!-- Prozor sa dugmicima -->
+            <div id="levi">
+                <h2>Odaberite prostoriju</h2>
+                <label>
+                    <input type="radio" name="prostor" value="prostor1" id="prostor1" /> Prostorija 1
+                </label><br>
+                <label>
+                    <input type="radio" name="prostor" value="prostor2" id="prostor2" /> Prostorija 2
+                </label><br>
+                <label>
+                    <input type="radio" name="prostor" value="prostor3" id="prostor3" /> Prostorija 3
+                </label><br>
+            </div>
+    
+            <!-- Prozor za prikaz podataka -->
+            <div id="desni">
+                <h2>Stanje</h2>
+                <p id="prikaz_desni">Odaberite prostoriju za prikaz.</p>
+            </div>
+        </div>
+        
+    <script src = "mqtt.js"></script>
+        
+    </body>
+</html>

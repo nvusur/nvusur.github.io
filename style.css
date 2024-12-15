@@ -1,0 +1,45 @@
+*{
+    margin: 10;
+    padding: 10;
+    font-family: 'Arial';
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1000px;
+}
+
+#levi {
+    width: 45%;
+    background-color: rgba(108, 241, 212, 0.479);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#desni {
+    width: 80%;
+    background-color: rgba(108, 241, 212, 0.479);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+#levi h2, #desni h2 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+#desni p {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
